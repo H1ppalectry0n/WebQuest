@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* подключение шрифтов*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+/* Header */
+.header-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  padding: 13px;
+}
+.source {
+  border-left: 1px solid rgb(245, 222, 179);
+}
+.source-img {
+  height: 75px;
+}
+.source a {
+  display: block;
+  padding: 15px;
+}
+.column.source {
+  padding: 0;
+}
+.header {
+  background: url(../img/texture.png) repeat #280000;
+}
+.s {
+  border-top: 1px solid rgb(245, 222, 179);
+  padding: 15px;
+  color: rgb(203, 76, 0);
+  font-weight: bold;
+}
+
+/* NavBar */
+nav {
+  background: url(../img/greenbg.png) repeat;
+  overflow: hidden;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  font-size: 24px;
+}
+nav li {
+  padding: 4px 14px 3px 14px;
+  border-right: 1px solid rgb(245, 222, 179);
+}
+
+nav li:hover,
+.active {
+  background: url(../img/activenavbg.png) repeat;
+}
+
+/* общее */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  width: 960px;
+}
